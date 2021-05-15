@@ -1,9 +1,9 @@
 #include "UI.h"
-UI::UI(MarsStation* m)
+UI::UI()
 {
-	MS = m;
+
 }
-MarsStation* UI::input()
+void UI::input()
 {
 
 }
