@@ -9,4 +9,5 @@ private:
 	int SIG;
 public:
 	Mission(int a, int c, int d, int e, int f);
+	int gettype();
 };
