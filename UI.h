@@ -3,10 +3,9 @@
 class UI
 {
 private:
-	MarsStation* MS;
 public:
 	UI();
-	MarsStation* input();
+	void input();
 	void output();
 };
 
