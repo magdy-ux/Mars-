@@ -7,3 +7,7 @@ Mission::Mission(int a, int c, int d, int e, int f)
 	MDUR = e;
 	SIG = f;
 }
+int Mission::gettype()
+{
+	return TYP;
+}
