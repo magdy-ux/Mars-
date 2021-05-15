@@ -5,7 +5,7 @@ class UI
 private:
 	MarsStation* MS;
 public:
-	UI(MarsStation*);
+	UI();
 	MarsStation* input();
 	void output();
 };
