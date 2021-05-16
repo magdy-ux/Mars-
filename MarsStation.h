@@ -11,13 +11,16 @@ private:
 	int CurrentDay;
 	UI UserI;
 	LinkedQueue<Event> EventList;
-	LinkedList<Mission> MPMissionList;
+	LinkedList<Mission> PMissionList;
 	LinkedList<Mission> EMissionList;
-	LinkedQueue<Rover> RoverList;
+	LinkedList<Mission> InExMissions;
+	LinkedQueue<Rover> PRoverList;
+	LinkedQueue<Rover> ERoverList;
+	LinkedQueue<Rover> InExRovers;
 public:
 	MarsStation();
 	void StationInput(LinkedQueue<Event>*);
 	void MExecute();
-
+	void Assign();
 };
 
