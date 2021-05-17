@@ -1,4 +1,7 @@
 #pragma once
+#include"Defs.h"
+#include"linkedqueue.h"
+#include"priorityqueue.h"
 class Event
 {
 private:
