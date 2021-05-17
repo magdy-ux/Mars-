@@ -1,8 +1,9 @@
 #pragma once
+#include"Defs.h"
 class Mission
 {
 private:
-	int TYP;
+	missiontype TYP;
 	int ID;
 	int TLOC;
 	int MDUR;
